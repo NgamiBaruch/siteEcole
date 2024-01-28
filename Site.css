@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.tout{
+
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(62.png);
+    background-size: cover;
+    height: 90vh;
+}
+.navbar{
+    top: 0;
+    width: 100%;
+    height: 100px;
+    /*border: 1px solid ;*/
+    border-color: beige;
+    background: transparent;
+    
+}
+
+.titre{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.titre h1{
+    color:orange;
+    font-size: 35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 30px;
+    float: left;
+    padding-top:17px;
+}
+
+ul li a{
+    position: fixed;
+    margin: 0 0em 0 7em;
+    width: 500px;
+    border: none;
+    text-decoration: none;
+    color: white ;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:orange;
+    text-shadow: 5px 5px 5px orange;
+    font-size: 16px;
+    font-family: Arial;
+    /*border-radius: 5px 5px 5px 5px;*/
+}
+
+ .menu{
+    width: 40em;
+    float: left;
+    margin-left: 7em;
+    height: 70px ;
+}
+
+ul{
+    float: left;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 2em 0 4em;
+    margin-top: 35px;
+    font-size: 14px;
+}
+
+.connexion{
+ 
+    width: 330px;
+    float: right;
+    margin-top: 20px;
+   
+
+}
+
+.connexion a{
+    text-decoration: none;
+    color: white;
+}
+
+.connexion a:hover{
+    
+    text-decoration: underline;
+    color: blue;
+    color: orange;
+    cursor: pointer;
+
+}
+.connexion .con{
+    width: 120px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 40px;
+    border: none;
+    background: orange;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.page{
+
+    margin-top: -530px;
+    margin-left: 60px;
+}
+
+.footer{
+
+
+    width: 100%;
+    height: 300px;
+    background: black;
+}
+
+.stay{
+    
+    border-radius: 2px;
+    padding-left: 25px;
+    padding-top: 25px;
+ 
+}
+
+.stay h3{
+
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-left: 3px;
+    color: white;
+}
+
+.stay p{
+
+    color: white;
+    margin: 10px 0px 3px 3px;
+}
+
+.stay .sign{
+
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.stay input{
+    width: 10%;
+    height: 20%;
+    margin-top: 30px;
+    padding: 20px 45px 20px 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 2);
+    border-radius: 40px;
+    color: white;
+}
+
+input::placeholder{
+    color: blue;
+}
+
+.stay .image  img{
+    width: 30px;
+    margin: 18px 0px 3px 3px;
+    justify-content: space-between;
+    height: 30px;
+    
+}
+.img1{
+
+    padding: 8px 4px 2px 2px;
+}
+
+.text{
+
+    margin-top: -260px;
+    margin-left: 400px;
+}
+
+.test{
+
+    margin-top: -180px;
+    margin-left: 800px;
+
+}
+
